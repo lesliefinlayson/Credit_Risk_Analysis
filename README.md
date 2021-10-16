@@ -6,6 +6,10 @@ Determining credit risk presents a challenge because it is an unbalanced classif
 
 The purpose of this project is to evaluate 6 different machine learning models to determine which, if any, can be used to reliably and accurately predict credit risk.  These include resampling models, SMOTEEN algorithm, and ensemble classifiers.
 
-##Results
+## Results
+
+### Resampling Models
+
+_Oversampling with RandomOverSampler and SMOTE algorithms_
 
 
