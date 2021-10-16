@@ -2,7 +2,7 @@
 
 ## Project Purpose
 
-Determining credit risk presents a challenge because it is an unbalanced classification problem: the number of good loans highly outnumber the number of risky loans.  The results, therefore, may be skewed.  
+Determining credit risk presents a challenge because it is an unbalanced classification problem: the number of good loans highly outnumber the number of risky loans.  The results, therefore, may be skewed and using standard metrics can lead to classification errors and misleading conclusions.
 
 The purpose of this project is to evaluate 6 different machine learning models to determine which, if any, can be used to predict credit risk.  These include resampling models, combination sampling, and ensemble classifiers.
 
@@ -85,6 +85,22 @@ Balanced Accuracy Score:
 Imbalanced classification Report:
 
 <img width="393" alt="2021-10-16 (18)" src="https://user-images.githubusercontent.com/84471904/137604186-9d25a2c8-990c-4110-a71d-cb208d80234a.png">
+
+
+## Results
+
+The classification report is about key metrics in a classification problem.
+
+You'll have precision, recall, f1-score and support for each class you're trying to find.
+
+The recall means "how many of this class you find over the whole number of element of this class"
+
+The precision will be "how many are correctly classified among that class"
+
+The f1-score is the harmonic mean between precision & recall
+
+The support is the number of occurence of the given class in your dataset (so you have 37.5K of class 0 and 37.5K of class 1, which is a really well balanced dataset.
+
 
 
 
