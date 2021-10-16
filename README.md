@@ -60,7 +60,31 @@ Imbalanced classification Report:
 
 <img width="370" alt="2021-10-16 (11)" src="https://user-images.githubusercontent.com/84471904/137595174-f68e8091-b479-401d-bd9a-4d342e9cd9e2.png">
 
+### Ensemble Learners
 
+_Balanced Random Forest Classifier_ 
+
+This supervised learning algorith builds a "forest" - where for each tree two bootstrapped sets of the same size, equal to the size of the minority class, are constructed:  one for the minority class, the other for the majority class.      
+
+Balanced Accuracy Score:
+
+<img width="150" alt="2021-10-16 (14)" src="https://user-images.githubusercontent.com/84471904/137604014-44ac9709-d2e7-4f48-9a43-0cb709ca7f4f.png">
+
+Imbalanced classification Report:
+
+<img width="372" alt="2021-10-16 (15)" src="https://user-images.githubusercontent.com/84471904/137604030-fac9c1a0-99f1-41b2-aefd-825a0d72f5e7.png">
+
+_Easy Ensemble AdaBoost Classifier_ 
+
+The classifier is an ensemble of AdaBoost learners trained on different balanced boostrapsamples, with balancing achieved by random under-sampling.
+
+Balanced Accuracy Score:
+
+<img width="122" alt="2021-10-16 (17)" src="https://user-images.githubusercontent.com/84471904/137604173-4b2d691e-ecd3-4d08-9d8f-d4a5e0dbb23d.png">
+
+Imbalanced classification Report:
+
+<img width="393" alt="2021-10-16 (18)" src="https://user-images.githubusercontent.com/84471904/137604186-9d25a2c8-990c-4110-a71d-cb208d80234a.png">
 
 
 
