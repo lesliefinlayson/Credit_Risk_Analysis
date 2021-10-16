@@ -22,7 +22,7 @@ Imbalanced classification Report:
 
 <img width="374" alt="2021-10-16 (3)" src="https://user-images.githubusercontent.com/84471904/137592297-e82c3d82-143b-4e07-ad8e-ec8212d13579.png">
 
-_Oversampling with Synthetic Minority Oversampling Technique (SMOTE) _ 
+_Oversampling with Synthetic Minority Oversampling Technique (SMOTE)_ 
 
 With SMOTE, new instances of the minority class are interpolated and added to the training set until the majority and minority classes are balanced. 
 
