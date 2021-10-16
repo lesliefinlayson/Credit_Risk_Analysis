@@ -14,7 +14,7 @@ _Oversampling with RandomOverSampler_
 
 In random oversampling, instances of the minority class are randomly selected and added to the training set until the majority and minority classes are balanced. 
 
-Accuracy Score:
+Balanced Accuracy Score:
 
 <img width="331" alt="2021-10-16 (2)" src="https://user-images.githubusercontent.com/84471904/137592243-a261fe65-b285-4f25-995d-f5936d829dac.png">
 
@@ -26,7 +26,7 @@ _Oversampling with SMOTE_
 
 With SMOTE, new instances of the minority class are interpolated and added to the training set until the majority and minority classes are balanced. 
 
-Accuracy Score:
+Balanced Accuracy Score:
 
 <img width="238" alt="2021-10-16 (4)" src="https://user-images.githubusercontent.com/84471904/137593307-e819a34b-5b5c-46cf-b00d-1f78c0cfad47.png">
 
@@ -38,7 +38,7 @@ _Undersampling with the ClusterCentroids resampler_
 
 This algorithm identifies clusters of the majority class then generates synthetic data points that are representiatve of the clusters.  The majority class is then undersampled down to the size of the minority class.   
 
-Accuracy Score:
+Balanced Accuracy Score:
 
 <img width="246" alt="2021-10-16 (7)" src="https://user-images.githubusercontent.com/84471904/137594773-2dde37db-ee67-48e9-aeb7-3076a7824564.png">
 
