@@ -89,14 +89,27 @@ Imbalanced classification Report:
 
 ## Summary
 
-Quick review of metrics considered:
+### Quick review of metrics considered:
 _Balanced Accuracy Score:_  metric used to evaluate how good a binary classifier is. Informal definition:  fraction of predictions the model got right.  
+
 _Imbalanced Classification Report:_ key metrics in a classification problem
+
 •	Precision: how many are correctly classified among that class
+
 •	Recall: how many of this class you find over the whole number of element of this class
 
-
+### Data Summary
   
+Comparing the two oversampling models, SMOTE had a slightly higher accuracy score than random sampling:  .65 and .63 respectively.  When looking at the imbalanced classification reports for both models, both had very poor results at predicting high risk loans, .01 for both.  Recall values are similar.
+Undersampling with ClusterCentroids resampler had an even lower accuracy score of .52.  The precision and recall numbers are approximately same as the oversampling models.
+The combination sampling with SMOTEEN did not generate improved results.  Accuracy for this model is .66, precision results are the same and the recall numbers similar.
+
+The ensemble learners showed some improvement at identifying risk loans.  The accuracy score for the balanced random forest classifier is 79%,and the precision for the high risk loans increased to 3%, and the recall values are 70% for high risk loans and 87% for low risk loans.  
+
+The easy ensemble adaboost classifier performed even better with an accuracy score of 93%, the precision for the high risk loans increased to 9%, and the recall values are at a high of 92% for high risk loans and 94% for low risk loans.  
+
+For this particular dataset, it appears than ensemble learners, specifically the easy ensemble adaboost classifier, is the best of the options explored.  
+
 
 
 
