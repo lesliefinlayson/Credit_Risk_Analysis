@@ -95,15 +95,12 @@ Balanced Accuracy Score:  metric used to evaluate how good a binary classifier i
 
 Imbalanced Classification Report: key metrics in a classification problem
 
-  The precision will be "how many are correctly classified among that class"
+•	Precision: how many are correctly classified among that class
       
-  The recall means "how many of this class you find over the whole number of element of this class"
+•	Recall: how many of this class you find over the whole number of element of this class
 
 
-
-The recall means "how many of this class you find over the whole number of element of this class"
-
-
+  
 
 
 
