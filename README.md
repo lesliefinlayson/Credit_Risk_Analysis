@@ -87,21 +87,25 @@ Imbalanced classification Report:
 <img width="393" alt="2021-10-16 (18)" src="https://user-images.githubusercontent.com/84471904/137604186-9d25a2c8-990c-4110-a71d-cb208d80234a.png">
 
 
-## Results
+## Summary
 
-Balanced Accuracy:  metric used to evalualte how good a binary classifier is; especially useful when classes are imbalanced. 
+Quick review of metrics considered:
 
-The classification report is about key metrics in a classification problem.
+Balanced Accuracy Score:  metric used to evaluate how good a binary classifier is. Informal definition:  fraction of predictions the model got right.  
 
-You'll have precision, recall, f1-score and support for each class you're trying to find.
+Imbalanced Classification Report: key metrics in a classification problem.
+
+      The precision will be "how many are correctly classified among that class"
+      
+      The recall means "how many of this class you find over the whole number of element of this class"
+
+
 
 The recall means "how many of this class you find over the whole number of element of this class"
 
-The precision will be "how many are correctly classified among that class"
 
-The f1-score is the harmonic mean between precision & recall
 
-The support is the number of occurence of the given class in your dataset (so you have 37.5K of class 0 and 37.5K of class 1, which is a really well balanced dataset.
+
 
 
 
