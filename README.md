@@ -89,6 +89,8 @@ Imbalanced classification Report:
 
 ## Results
 
+Balanced Accuracy:  metric used to evalualte how good a binary classifier is; especially useful when classes are imbalanced. 
+
 The classification report is about key metrics in a classification problem.
 
 You'll have precision, recall, f1-score and support for each class you're trying to find.
