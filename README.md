@@ -90,13 +90,9 @@ Imbalanced classification Report:
 ## Summary
 
 Quick review of metrics considered:
-
 _Balanced Accuracy Score:_  metric used to evaluate how good a binary classifier is. Informal definition:  fraction of predictions the model got right.  
-
 _Imbalanced Classification Report:_ key metrics in a classification problem
-
 •	Precision: how many are correctly classified among that class
-
 •	Recall: how many of this class you find over the whole number of element of this class
 
 
